@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import './script.js';
+import Hello from './sayHello';
 
 function App(){
   const sayHello = () =>{
@@ -8,8 +9,7 @@ function App(){
   }
   return(
     <div>
-      <h1>Hello React</h1>
-      <button onClick={sayHello()}>Helo</button>
+      <Hello/>
     </div>
   );
 }
