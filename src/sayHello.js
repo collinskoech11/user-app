@@ -6,7 +6,7 @@ function Hello(){
     };
     return(
         <div>
-            <button onClick={sayHello}>sayHello</button>
+            <button onClick={sayHello}>Hello</button>
         </div>
     );
 }
