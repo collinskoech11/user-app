@@ -3,12 +3,6 @@ import './script.js';
 import { Carousel } from 'react-bootstrap';
 
 function App(){
-<<<<<<< HEAD
-=======
-  const sayHello = () =>{
-    console.log('hello');
-  }
->>>>>>> 564bfeb3e601b22ef827f0fb8265a9c24dce0880
   return(
     <Carousel>
     <Carousel.Item interval={1000}>
