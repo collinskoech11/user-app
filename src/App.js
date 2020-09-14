@@ -2,7 +2,7 @@ import React from 'react';
 import './script.js';
 import { Carousel } from 'react-bootstrap';
 
-function App(){
+function App(){ 
   return(
     <Carousel>
     <Carousel.Item interval={1000}>
